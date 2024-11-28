@@ -15,6 +15,8 @@ div>h1{
     word-spacing: 1px;
     letter-spacing: 1px;
     z-index: 1;
+    -webkit-text-stroke: 1.5px black; /* Border thickness and color */
+    text-stroke: 1.5px black;
 
 }
 button{
