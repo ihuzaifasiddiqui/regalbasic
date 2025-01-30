@@ -1,38 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Regal3D</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://kit.fontawesome.com/7b5e65dcbf.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./styles.css">
-</head>
+    <script
+      src="https://kit.fontawesome.com/7b5e65dcbf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
 
-<body>
+  <body>
     <main class="flex flex-col justify-center items-center h-screen">
-        <div class="blur-container w-screen">
-            <img src="./assets/Regal2.png" class="logo h-22 m-auto mb-20 md:mb-15 sm:mb-10">
+      <div class="blur-container w-screen h-screen">
+        <img
+          src="./assets/Regal2.png"
+          class="logo h-22 m-auto mb-20 md:mb-15 sm:mb-10"
+        />
 
-            <div class="hero  flex flex-col items-center px-3  m-auto">
+        <div class="hero flex flex-col items-center px-3 m-auto">
+          <h1
+            class="text-4xl sm:text-5xl md:text-5xl lg:text-5xl text-[#E4BABA]"
+          >
+            Your One stop solution for all your 3d printing needs!
+          </h1>
+          <div class="flex gap-3 m-10 sm-mt-100px">
 
-                <h1 class="text-4xl sm:text-5xl md:text-5xl lg:text-5xl text-[#E4BABA]">Your One stop solution for all
-                    your 3d printing needs!</h1>
-                <div class="flex gap-3 m-10 sm-mt-100px">
-                    <button
-                        class="shadow-[inset_0_0_0_2px_#616467] items-center  px-12 py-4 text-[#E4BABA] rounded-full tracking-widest uppercase font-bold hover:bg-[#616467] hover:text-white  transition duration-200">
-                        <i class="fa-solid fa-phone px-2"></i><a href="tel:+918885311867">Call</a>
-                    </button>
-                    </button>
-                    <button
-                        class="shadow-[inset_0_0_0_2px_#616467] bg-[#616467] px-12 py-4 text-white  tracking-widest uppercase font-bold rounded-full hover:text-[#E4BABA] items-center hover:bg-transparent transition duration-200><p><a href="
-                        mailto:regal3dsystems@gmail.com"><i class="fa-regular fa-envelope px-2"></i>mail</a></p>
-                    </button>
-                </div>
-            </div>
+            <a
+            href="tel:+918885311867"
+            class="flex items-center justify-center gap-2 shadow-[inset_0_0_0_2px_#616467] bg-transparent px-12 py-4 text-[#E4BABA] tracking-widest uppercase font-bold rounded-full hover:text-white hover:bg-[#616467] transition duration-200">
+            <i class="fa-solid fa-phone"></i>
+            <span>Call</span>
+          </a>
+          
+
+            <a
+              href="mailto:regal3dsystems@gmail.com"
+              class="flex items-center justify-center gap-2 shadow-[inset_0_0_0_2px_#616467] bg-[#616467] px-12 py-4 text-white tracking-widest uppercase font-bold rounded-full hover:text-[#E4BABA] hover:bg-transparent transition duration-200"
+            >
+              <i class="fa-regular fa-envelope"></i>
+              <span>mail</span>
+            </a>
+          </div>
         </div>
+      </div>
     </main>
-</body>
-
+  </body>
 </html>

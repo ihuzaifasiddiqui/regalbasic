@@ -32,8 +32,9 @@ main {
     height: 100vh;
     display: flex;
    overflow: hidden;
-    
 }
+    
+
 img.logo{
     z-index: -1;
 }
